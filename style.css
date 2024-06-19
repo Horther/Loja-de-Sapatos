@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 8px;
+    background-color: rgba(20, 105, 216, 0.718);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-style: italic;
+}
+
+a {
+    margin-left: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sobre {
+    display: flex;
+    margin-top: 32px;
+}
+
+h2 {
+    color: rgba(20, 105, 216, 0.718);;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+    border-bottom: 5px solid rgba(20, 105, 216, 0.718);
+    font-style: italic;
+}
+
+
+#about {
+    margin-left: 32px;
+}
+
+.loja {
+    margin-top: 64px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    width: 100%;
+}
+
+li > p {
+    font-size: .9em;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+button {
+    width: 98%;
+    padding: 5px;
+    border: none;
+    background-color: rgba(20, 105, 216, 0.718);
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px){
+    .container {
+        max-width: 720px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .sobre {
+        display: block;
+        margin-top: 32px;
+    }
+
+    .sobre img {
+        width: 100%;
+    }
+
+    #about {
+        margin-left: 0px;
+        margin-top: 32px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    li p {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    a {
+        font-size: 1.5em;
+    }
+
+    .loja h2 {
+        margin-top: 32px;
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    li img{
+        width: 98%;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+    header h1{
+        margin-left: 16px;
+    }
+    
+    .container {
+        max-width: 640px;
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+
+    .sobre {
+        display: block;
+        margin-top: 32px;
+    }
+
+    .sobre img {
+        width: 100%;
+    }
+
+    #about {
+        margin-left: 0px;
+        margin-top: 32px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    li p {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    a {
+        font-size: 1.5em;
+    }
+
+    .loja h2 {
+        margin-top: 32px;
+    }
+
+    ul {
+        display: block;
+    }
+
+    li img{
+        width: 98%;
+    }
+
+    li {
+        margin-bottom: 16px;
+    }
+}
+
